@@ -8,7 +8,7 @@ El dataset corresponde a [DAQUAR](https://www.mpi-inf.mpg.de/departments/compute
 
 Debido a que el dataset se encuentra en idioma Ingles es necesario traducirlo al español, para lo cual se usaron dos estrategias; asi para las preguntas se uso el modelo de aprendizaje profundo [nllb-200-distilled-1.3B](https://huggingface.co/facebook/nllb-200-distilled-1.3B) y en el caso de las respuestas se uso la libreria de Python [deep-translatio](https://deep-translator.readthedocs.io/en/latest)
 
-Todo el código antes mencionado se lo puede encontrar en 
+Todo el código antes mencionado y un breve resumen estadistico del dataset se lo puede encontrar en [translate_to_spanish_daquar.ipynb](https://github.com/pvbastidas/spanish-vqa/blob/master/dataset_daquar/translate_to_spanish_daquar.ipynb)
 
 ## Implementación
 
