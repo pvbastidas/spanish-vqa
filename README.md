@@ -10,7 +10,16 @@ Debido a que el dataset se encuentra en idioma Ingles es necesario traducirlo al
 
 Todo el código antes mencionado y un breve resumen estadistico del dataset se lo puede encontrar en [translate_to_spanish_daquar.ipynb](https://github.com/pvbastidas/spanish-vqa/blob/master/dataset_daquar/translate_to_spanish_daquar.ipynb)
 
-## Implementación
+## Requerimientos
+- `pandas 2.0.2`
+- `datasets 2.14.3`
+- `scikit-learn 1.2.2`
+- `deep-translator 1.11.4`
+- `numpy 1.24.3`
+- `torch 2.0.1`
+- `transformers 4.32.0.dev0`
+- `nltk 3.8.1`
+- `Pillow 9.5.0`
 
 ## Modelos
 
