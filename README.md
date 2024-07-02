@@ -21,6 +21,46 @@ Todo el código antes mencionado y un breve resumen estadistico del dataset se l
 - `nltk 3.8.1`
 - `Pillow 9.5.0`
 
+## Implementación
+
+### ⚡ Pipeline & Scripts
+La carpeta `util/` contiene el código base para los experimentos, para experimentar solo cambie la referencia a los modelos de texto e imagen pre-entrenados que desee probar.
+
+Los scripts :
+
+- `util/VisualQuestionAnsweringWithTransformers.ipynb`: Código base Jupyter Notebook 
+- `util/modeling_multimodal.py`: Clase del Multimodal Collator
+- `dataset_daquar/translate_to_spanish_daquar.ipynb`: Jupyter Notebook para la traducción del dataset DAQUAR al Español
+
 ## Modelos
 
+- Algoritmos de Optimización
+    - Adam
+    - Stochastic Gradient Descent
+    - Adafactor
+- Transformadores de Texto 
+    - BETO: `'bert-base-spanish-wwm-uncased'`
+    - BERTIN: `'bertin-roberta-base-spanish'`
+    - roBERTA-BASE-BNE:`'roberta-base-bne'
+- Transformadores de Imágenes
+    - ViT: `'google/vit-base-patch16-224-in21k'`
+    - DeiT: `'facebook/deit-base-distilled-patch16-224'`
+    - BEiT: `'microsoft/beit-base-patch16-224-pt22k-ft22k'`
+
+
 ## Evaluación
+
+Los mejores resultados del puntaje WUPS se presentan a continuación:
+
+| Transformador Texto | Transformador Imágen | Algoritmo Optimizador | WUPS |
+| :---: | :---: | :---: | :---: | 
+| ROBERTA-BASE-BNE | BEiT | Adam | _**0.277**_ | 
+| BETO | BEiT | Adam | 0.276 | 
+| BETO | ViT | Adam | 0.275 | 
+| ROBERTA-BASE-BNE | DeiT | Adam | 0.275 |
+| BETO | BEiT | Adafactor | 0.275 |
+
+
+
+
+
