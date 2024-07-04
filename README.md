@@ -41,7 +41,7 @@ Los scripts :
 - Transformadores de Texto 
     - BETO: `'bert-base-spanish-wwm-uncased'`
     - BERTIN: `'bertin-roberta-base-spanish'`
-    - roBERTA-BASE-BNE:`'roberta-base-bne'
+    - MarIA:`'roberta-base-bne'
 - Transformadores de Imágenes
     - ViT: `'google/vit-base-patch16-224-in21k'`
     - DeiT: `'facebook/deit-base-distilled-patch16-224'`
@@ -54,10 +54,10 @@ Los mejores resultados del puntaje WUPS se presentan a continuación:
 
 | Transformador Texto | Transformador Imágen | Algoritmo Optimizador | WUPS |
 | :---: | :---: | :---: | :---: | 
-| ROBERTA-BASE-BNE | BEiT | Adam | _**0.277**_ | 
+| MarIA | BEiT | Adam | _**0.277**_ | 
 | BETO | BEiT | Adam | 0.276 | 
 | BETO | ViT | Adam | 0.275 | 
-| ROBERTA-BASE-BNE | DeiT | Adam | 0.275 |
+| MarIA | DeiT | Adam | 0.275 |
 | BETO | BEiT | Adafactor | 0.275 |
 
 
