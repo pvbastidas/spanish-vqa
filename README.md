@@ -41,7 +41,7 @@ Los scripts :
 - Transformadores de Texto 
     - BETO: `'bert-base-spanish-wwm-uncased'`
     - BERTIN: `'bertin-roberta-base-spanish'`
-    - MarIA:`'roberta-base-bne'
+    - MarIA:`'roberta-base-bne'`
 - Transformadores de Imágenes
     - ViT: `'google/vit-base-patch16-224-in21k'`
     - DeiT: `'facebook/deit-base-distilled-patch16-224'`
